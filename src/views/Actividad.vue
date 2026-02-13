@@ -2,103 +2,25 @@
   .curso-main-container.pb-3
     BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-  
-      #Actividad_Completar_Frases
-      <ActividadCompletar :parrafo="parrafo"/>
-
-      #Actividad_Cuestionario
-      //<Actividad :cuestionario="cuestionario"/>
+      <Actividad :cuestionario="cuestionario"/>
   
   </template>
 
 <script>
-import ActividadCompletar from '@/views/plantilla/actividadCompletar/ActividadCompletar.vue'
 import Actividad from 'ecored-pkg-fliz/plugin/components/actividad/Actividad.vue'
 
 export default {
   name: 'ActividadDidactica',
   components: {
-    ActividadCompletar,
     Actividad,
   },
   data: () => ({
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: require('@/assets/actividad/imagen5.png'),
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
-        },
-        {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
-        },
-      ],
-    },
     cuestionario: {
-      tema: 'Nombre del CF',
+      tema:
+        'Fundamentos, obtención y control de calidad de los aceites esenciales.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> verificar la comprensión de los conceptos fundamentales relacionados con la obtención y control de calidad de los aceites esenciales.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!..',
       titulo_reprobado: 'VUELVA A INTENTARLO..',
@@ -106,404 +28,692 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Los aceites esenciales se consideran productos de alto valor debido a que?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+                'Son mezclas complejas de compuestos volátiles que concentran el aroma y propiedades funcionales de las plantas.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Son aceites grasos similares a los de origen animal.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'Se obtienen únicamente a partir de semillas oleaginosas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto:
+                'Son sustancias sintéticas diseñadas para la industria perfumera.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos, obtención y control de calidad de los aceites esenciales.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Fundamentos, obtención y control de calidad de los aceites esenciales.',
         },
+
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Auto</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Text</em>',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Para borrar conexiones.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Para agregar nuevas capas.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: '<em>Text</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+            '¿Una diferencia clave entre un aceite esencial y un aceite vegetal es qué?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
+                'Ambos tienen la misma volatilidad y comportamiento químico.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto:
+                'El aceite esencial es más denso y deja manchas grasas permanentes.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto:
+                'El aceite esencial es volátil y no deja residuo graso tras evaporarse.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'El aceite vegetal se obtiene solo por destilación.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos, obtención y control de calidad de los aceites esenciales.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Fundamentos, obtención y control de calidad de los aceites esenciales.',
+        },
+
+        {
+          id: 3,
+          texto:
+            '¿Los terpenos son importantes en los aceites esenciales por qué?',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Aumentan el contenido graso del producto final.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Constituyen una de las principales clases de compuestos responsables del aroma.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Disminuyen la volatilidad del aceite.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Solo aparecen en aceites esenciales sintéticos.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos, obtención y control de calidad de los aceites esenciales.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Fundamentos, obtención y control de calidad de los aceites esenciales.',
+        },
+
+        {
+          id: 4,
+          texto:
+            '¿La composición de un aceite esencial puede variar principalmente por?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El tipo de envase utilizado para su almacenamiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El color natural de la planta.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La edad del consumidor final.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La parte de la planta utilizada y el momento de cosecha.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos, obtención y control de calidad de los aceites esenciales.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Fundamentos, obtención y control de calidad de los aceites esenciales.',
+        },
+
+        {
+          id: 5,
+          texto:
+            '¿Una función biológica de los aceites esenciales en las plantas es?',
+          imagen: require('@/assets/actividad/imagen05.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Almacenar energía en forma de lípidos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Actuar como mecanismo de defensa frente a insectos y microorganismos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Regular el crecimiento de las raíces.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Sustituir el proceso de fotosíntesis.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos, obtención y control de calidad de los aceites esenciales.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Fundamentos, obtención y control de calidad de los aceites esenciales.',
         },
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+            '¿El método de extracción más adecuado para obtener aceites esenciales verdaderos para aromaterapia es?',
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto: 'Destilación y expresión.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Extracción con solventes volátiles.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto: 'Maceración en grasas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto: 'Extracción con alcoholes industriales.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos, obtención y control de calidad de los aceites esenciales.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Fundamentos, obtención y control de calidad de los aceites esenciales.',
         },
+
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: '¿La hidrodestilación se caracteriza por?',
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto: 'Utilizar solventes orgánicos a baja temperatura.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
+              texto: 'Aplicarse únicamente a cítricos.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
-              esCorrecta: false,
+              texto:
+                'Hervir el material vegetal en agua para liberar los compuestos volátiles.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto: 'No requerir separación posterior del aceite.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos, obtención y control de calidad de los aceites esenciales.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Fundamentos, obtención y control de calidad de los aceites esenciales.',
         },
+
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+            '¿En la destilación por arrastre de vapor, el vapor cumple la función de?',
+          imagen: require('@/assets/actividad/imagen8.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Disolver completamente los aceites esenciales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Oxidar los compuestos aromáticos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Reducir la presión atmosférica.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Transportar los compuestos volátiles sin degradarlos térmicamente.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos, obtención y control de calidad de los aceites esenciales.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Fundamentos, obtención y control de calidad de los aceites esenciales.',
+        },
+
+        {
+          id: 9,
+          texto: '¿La destilación al vacío se utiliza por qué?',
+          imagen: require('@/assets/actividad/imagen9.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Incrementa el color del aceite.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Permite destilar compuestos sensibles al calor a menores temperaturas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Es más económica que la destilación tradicional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Elimina completamente el agua del proceso.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos, obtención y control de calidad de los aceites esenciales.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Fundamentos, obtención y control de calidad de los aceites esenciales.',
+        },
+
+        {
+          id: 10,
+          texto: '¿La extracción por fluidos supercríticos se destaca por?',
+          imagen: require('@/assets/actividad/imagen10.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Obtener aceites de alta pureza sin residuos de solventes tóxicos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Ser el método más antiguo de extracción.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Usar exclusivamente agua como fluido.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'No requerir equipos especializados.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos, obtención y control de calidad de los aceites esenciales.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Fundamentos, obtención y control de calidad de los aceites esenciales.',
+        },
+
+        {
+          id: 11,
+          texto: '¿Una propiedad organoléptica de los aceites esenciales es?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Índice de refracción.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Densidad relativa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Olor característico e intenso.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Índice de saponificación.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos, obtención y control de calidad de los aceites esenciales.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Fundamentos, obtención y control de calidad de los aceites esenciales.',
+        },
+
+        {
+          id: 12,
+          texto: '¿El índice de acidez en un aceite esencial permite?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Determinar su color natural.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Medir su volatilidad.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Identificar su origen botánico.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
+              texto: 'Evaluar degradación o presencia de ácidos libres.',
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos, obtención y control de calidad de los aceites esenciales.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Fundamentos, obtención y control de calidad de los aceites esenciales.',
         },
-        {
-          id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
+
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto: '¿La cromatografía de gases es importante por qué?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Define el color del aceite.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Permite separar e identificar los componentes del aceite esencial.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Elimina impurezas del producto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Sustituye todos los demás métodos analíticos.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos, obtención y control de calidad de los aceites esenciales.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Fundamentos, obtención y control de calidad de los aceites esenciales.',
         },
+
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+          texto: '¿Cuándo se recomienda utilizar la técnica de la entrevista?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto:
+                'Obtener información cualitativa y cuantitativa de los compuestos.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Medir únicamente la densidad del aceite.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Evaluar el olor del producto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Determinar la solubilidad en agua.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos, obtención y control de calidad de los aceites esenciales.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Fundamentos, obtención y control de calidad de los aceites esenciales.',
         },
+
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto: '¿La resonancia magnética nuclear se caracteriza por?',
+          imagen: require('@/assets/actividad/imagen05.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Tener baja precisión estructural.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Analizar solo compuestos volátiles simples.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Proporcionar información detallada sobre la estructura molecular.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Reemplazar la cromatografía de gases.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos, obtención y control de calidad de los aceites esenciales.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Fundamentos, obtención y control de calidad de los aceites esenciales.',
+        },
+
+        {
+          id: 16,
+          texto: '¿La espectroscopía infrarroja permite?',
+          imagen: require('@/assets/actividad/imagen6.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Separar mezclas complejas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Cuantificar cada componente del aceite.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Determinar la densidad del producto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Identificar grupos funcionales presentes en la mezcla.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos, obtención y control de calidad de los aceites esenciales.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Fundamentos, obtención y control de calidad de los aceites esenciales.',
+        },
+
+        {
+          id: 17,
+          texto:
+            '¿El uso del nombre científico de una planta es importante por qué?',
+          imagen: require('@/assets/actividad/imagen7.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Evita confusiones derivadas de nombres comunes regionales.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Mejora el aroma del aceite.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Aumenta el rendimiento del proceso.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Sustituye los análisis de laboratorio.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos, obtención y control de calidad de los aceites esenciales.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Fundamentos, obtención y control de calidad de los aceites esenciales.',
+        },
+
+        {
+          id: 18,
+          texto:
+            '¿El rendimiento de un aceite esencial depende en gran medida de?',
+          imagen: require('@/assets/actividad/imagen8.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El color de la planta.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'La calidad de la materia prima y el momento de cosecha.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'El tipo de envase final.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El tiempo de almacenamiento.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos, obtención y control de calidad de los aceites esenciales.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Fundamentos, obtención y control de calidad de los aceites esenciales.',
+        },
+
+        {
+          id: 19,
+          texto: '¿En aromaterapia, los aceites esenciales deben ser?',
+          imagen: require('@/assets/actividad/imagen9.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Mezclados con solventes sintéticos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Oxidados previamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Diluidos en alcohol industrial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Naturales, puros y obtenidos por métodos adecuados.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos, obtención y control de calidad de los aceites esenciales.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Fundamentos, obtención y control de calidad de los aceites esenciales.',
+        },
+
+        {
+          id: 20,
+          texto:
+            '¿La normativa sobre aceites esenciales varía entre países por qué?',
+          imagen: require('@/assets/actividad/imagen10.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Todos los aceites se usan de la misma forma.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'No existe regulación internacional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Depende únicamente del clima.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Está relacionada con la aplicación final del aceite en cada industria.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos, obtención y control de calidad de los aceites esenciales.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Fundamentos, obtención y control de calidad de los aceites esenciales.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        'Ha superado la actividad y demuestra sólidos conocimientos sobre los Fundamentos, obtención y control de calidad de los aceites esenciales.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }
