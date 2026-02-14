@@ -58,7 +58,11 @@
         h2 3.1  Normativa que rige los aceites esenciales
 
       p.mb-4 La regulación de los aceites esenciales depende de la legislación vigente en cada país, la cual establece los criterios de calidad, seguridad y comercialización aplicables a los productos que se producen o distribuyen en su territorio. Aunque estas normativas presentan similitudes a nivel general, existen diferencias significativas relacionadas con el uso final del aceite esencial, ya sea cosmético, farmacéutico, alimentario o aromaterapéutico.
-
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+          h5 Tabla 10.
+          span Normativa aplicable a los aceites esenciales
       .tabla-a.color-acento-botones
         table
           thead

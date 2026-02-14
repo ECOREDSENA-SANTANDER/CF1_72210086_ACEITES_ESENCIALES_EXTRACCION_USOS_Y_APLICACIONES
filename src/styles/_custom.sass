@@ -89,6 +89,11 @@ figcaption
   flex-direction: column
 .cajon.color-acento-contenido 
   background-color: #E1CDCE
+.cajon.color-primario 
+  background-color: #CEC6B3
+.cajon.color-secundario 
+  background-color: #E1CDCE
+
 .cajon.color-acento-contenido:before 
   background-color: #3B281B
 .bg1
@@ -102,7 +107,21 @@ figcaption
 .bg4
   background-color: #5F4205
   border-radius: 20px
-
+.bg5
+  background-color: #3B281B
+.bg6
+  background-color: #CEC6B3
+.bg7
+  background-color: #E5D5BA
+.bg8
+  background-color: #F6F6F6
+.bg9
+  background-color: #5F4205
+.negro
+  color: #12263F
+.izq
+  margin-left: -1.5rem
+  
 .fondot2
   background-image: url('../assets/curso/Tema2/fondo2.jpg')
   background-position: center
@@ -115,3 +134,77 @@ figcaption
   @media screen and (max-width: 767px)
     margin-inline: -1.4rem  
     background-size: cover 
+.img-t
+  width: auto
+  height: auto
+.img-a
+  display: block
+  margin: auto
+
+.cambiartarjeta
+  background-image: url('../assets/curso/Tema1/camb2.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center 
+  border-radius: 20px
+  &:hover
+    background-image: url('../assets/curso/Tema1/camb1.png')
+  &:hover *
+    color: black !important
+
+.tarjeta.tarjeta--azul .acordion__header h3, 
+.tarjeta.tarjeta--azul .acordion__header span 
+  color: white !important
+.tarjeta.tarjeta--azul.acordion__activo .acordion__header h3, 
+.tarjeta.tarjeta--azul.acordion__activo .acordion__header span 
+  color: #12263F !important
+
+.acordion__accion__btn--b 
+  background-color: #3B281B !important
+.acordion .tarjeta--azul
+  background-color: #55534F !important
+.acordion .tarjeta.tarjeta--azul.acordion__activo
+  background-color: #E1CDCE !important
+.fa-angle-up 
+  --fa: "\f106"
+  color: white
+.fa-angle-down 
+  --fa: "\f107"
+  color: white
+.slyder-a__bullets__item 
+  width: 12px
+  height: 12px
+  background-color: #fff
+  border-radius: 50%
+  box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0)
+  margin: 0 3px
+  cursor: pointer
+  opacity: 0.7
+  transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
+  border: 1px solid #D8ECFF
+
+.slyder-a__bullets__item:hover 
+  opacity: 1
+  box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.3)
+  border-color: #3B281B
+  background-color: #3B281B
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  width: 50px
+  height: 50px
+  background-color: #3B281B
+  border-radius: 50%
+  background-image: url(../assets/curso/Tema1/down.svg)
+  background-repeat: no-repeat
+  background-size: 16px 24px
+  background-position: center
+  border: #3B281B
+  top: 50%
+  z-index: 10000
+  opacity: 0.7
+  box-shadow: 0 0 0px 0px rgba(0, 0, 0, 0.3)
+  transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
+  cursor: pointer
+
+.barra-avance__boton--regresar span 
+  color: #fff !important
