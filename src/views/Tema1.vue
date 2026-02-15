@@ -167,6 +167,8 @@
             h3.bg2.py-2.w-card-text.text-white Función de los aceites esenciales en las plantas
 
       p.mb-4 Además de su aprovechamiento por parte del ser humano, los aceites esenciales cumplen funciones esenciales para la supervivencia y adaptación de las plantas, entre las que se destacan:
+      
+      SlyderB.mb-5(:datos="datosSlyder").bg10.p-4.text-white
 
       p.mb-4 Los compuestos químicos de las plantas se dividen en dos grandes grupos:
 
@@ -339,36 +341,338 @@
             p.text-white.mb-0 Para una correcta identificación de la especie, se recomienda utilizar no solo el nombre común de la planta, sino también su nombre científico, conformado por el género y la especie. Esto permite evitar ambigüedades, ya que un mismo nombre común puede emplearse para distintas especies según la región. En contraste, el nombre científico o botánico es universal y se mantiene constante en todo el mundo, independientemente del idioma o la ubicación geográfica.
 
 
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-12
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Tabla 3.
+            span Parte de la planta donde se produce el aceite esencial según la especie vegetal
+        .tabla-a.color-acento-botones
+          table
+            thead
+              tr
+                th Nombre común
+                th Nombre botánico
+                th Parte de la planta utilizada
+            tbody
+              //- Grupo Ramas
+              tr
+                th Ciprés
+                td #[em Cupressus sempervirens]
+                td(rowspan="2") Ramas.
+              tr
+                th Jara
+                td #[em Cistus ladanifer]
+              
+              //- Grupo Sumidades floridas
+              tr
+                th Lavanda
+                td #[em Lavandula angustifolia]
+                td(rowspan="2") Sumidades floridas.
+              tr
+                th Lavandín
+                td #[em Híbrido de Lavandula angustifolia y Lavandula latifolia]
+              
+              //- Grupo Planta entera
+              tr
+                th Menta
+                td #[em Mentha piperita]
+                td(rowspan="3") Planta entera.
+              tr
+                th Yerbabuena
+                td #[em Mentha citrata]
+              tr
+                th Limoncillo
+                td #[em Cymbopogon flexuosus]
+              
+              //- Grupo Hojas
+              tr
+                th Eneldo
+                td #[em Anethum graveolens]
+                td(rowspan="2") Hojas.
+              tr
+                th Geranio
+                td #[em Pelargonium odoratissimum]
+              
+              //- Grupo Flor
+              tr
+                th Rosa
+                td #[em Rosa centifolia]
+                td(rowspan="2") Flor.
+              tr
+                th Ylang-ylang
+                td #[em Cananga odorata]
+              
+              //- Grupo Flavedo
+              tr
+                th Limón
+                td #[em Citrus x limon]
+                td(rowspan="2") Flavedo (capa externa del fruto).
+              tr
+                th Mandarina
+                td #[em Citrus reticulata]
+              
+              //- Naranja (Celda única)
+              tr
+                th Naranja
+                td #[em Citrus x aurantium]
+                td Flavedo, flores y hojas.
+              
+              //- Grupo Planta entera con flor
+              tr
+                th Romero
+                td #[em Rosmarinus officinalis]
+                td(rowspan="4") Planta entera con flor.
+              tr
+                th Tomillo
+                td #[em Thymus vulgaris]
+              tr
+                th Ajedrea
+                td #[em Satureja montana]
+              tr
+                th Mejorana
+                td #[em Origanum majorana]
+              
+              //- Filas individuales restantes
+              tr
+                th Melisa o toronjil
+                td #[em Melissa officinalis]
+                td Planta fresca.
+              tr
+                th Abeto de Siberia
+                td #[em Abies sibirica]
+                td Acículas.
+              tr
+                th Manzanilla
+                td #[em Matricaria recutita]
+                td Flor seca.
+              tr
+                th Canela
+                td #[em Cinnamomum verum]
+                td Corteza.
+              tr
+                th Cedro
+                td #[em Cedrus atlantica]
+                td Madera.
+              tr
+                th Lima
+                td #[em Citrus maxima]
+                td Fruto entero.
+              tr
+                th Clavo
+                td #[em Syzygium aromaticum]
+                td Botones florales.
+              tr
+                th Vetiver
+                td #[em Chrysopogon zizanioides]
+                td Raíz.
+              tr
+                th Mostaza
+                td #[em Brassica nigra]
+                td Mostaza.
+      
+      .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left") 
+        .col-lg-7
+          .cajon.color-secundario.p-5
+            p.px-3.mb-3 Otra característica fundamental de los aceites esenciales está relacionada con el momento de cosecha de la planta, ya que este factor influye directamente en el rendimiento del proceso de extracción y en la composición química del producto final.
+            p.px-3.mb-0 Un ejemplo de ello es el aceite esencial de salvia (Salvia officinalis), el cual contiene una cetona neurotóxica cuya concentración varía según la época de recolección: es más alta cuando la planta se cosecha después de la floración y más baja cuando se recolecta antes de florecer, siendo esta última la condición más adecuada.
+        .col-lg-5.d-none.d-lg-block
+          img(src="@/assets/curso/Tema1/img12.png")
+
+      p.mb-4 Un comportamiento similar se observa en el jazmín (Jasminum officinale), cuyas flores deben cosecharse en horas de la mañana para obtener un aceite esencial con una composición óptima. Cuando la recolección se realiza en horas de la tarde, el aceite presenta compuestos responsables de notas odoríferas poco agradables, lo que disminuye su valor para la industria de la perfumería y la aromaterapia.
 
 
+      separador
+      #t_1_2.titulo-segundo.mb-5(data-aos="zoom-in-left")
+        h2 1.2  Propiedades 
+
+      p Las #[b propiedades físicas] de los aceites esenciales se refieren a aquellas características que pueden percibirse o medirse sin alterar su composición química. Estas propiedades son fundamentales para su identificación, control de calidad y aplicación industrial.
+      p.mb-4 #[b Las propiedades químicas] están directamente relacionadas con la estructura molecular de los compuestos que conforman los aceites esenciales y con su comportamiento frente a diferentes agentes químicos. Estas propiedades son determinantes para evaluar la pureza, estabilidad y calidad del producto.
+
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-12
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Tabla 4.
+            span Propiedades de los aceites esenciales 
+        .tabla-a.color-acento-botones
+          table
+            thead
+              tr
+                th Tipo de propiedad
+                th Característica
+                th Importancia
+            tbody
+              //- Propiedades Físicas
+              tr
+                th(rowspan="5") Física
+                td Color
+                td.text-left Varía según la especie y el proceso de extracción; ayuda a la identificación visual del aceite.
+              tr
+                td Olor
+                td.text-left Aroma intenso y característico, clave para la identificación sensorial y el uso comercial.
+              tr
+                td Densidad
+                td.text-left Generalmente menor que la del agua; facilita la separación en procesos de destilación.
+              tr
+                td Índice de refracción
+                td.text-left Parámetro óptico que indica pureza y composición del aceite.
+              tr
+                td Solubilidad
+                td.text-left Insolubles en agua y solubles en alcoholes y solventes orgánicos.
+              
+              //- Propiedades Químicas
+              tr
+                th(rowspan="5") Química
+                td Índice de acidez
+                td.text-left Indica la presencia de ácidos libres y posibles procesos de degradación.
+              tr
+                td Índice de éster
+                td.text-left Relacionado con el contenido de ésteres, importantes en aromas suaves y agradables.
+              tr
+                td Índice de saponificación
+                td.text-left Permite estimar la masa molecular promedio de los compuestos presentes.
+              tr
+                td Índice de acetilo
+                td.text-left Indica la presencia de grupos acetilo y contribuye al control de calidad.
+              tr
+                td pH
+                td.text-left Coeficiente que indica el grado de acidez o basicidad.
 
 
+      separador
+      #t_1_3.titulo-segundo.mb-5(data-aos="zoom-in-left")
+        h2 1.3  Clasificación de los aceites esenciales 
+
+      p.mb-0 Los aceites esenciales se pueden clasificar de acuerdo con los siguientes tres parámetros:
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-md-11.col-lg-12.col-12
+          .d-flex.align-items-center.mt-4
+            img.w-card-icon(src="@/assets/curso/Tema2/gota.svg")
+            h3.bg2.py-2.w-card-text.text-white Consistencia
 
 
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-12
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Tabla 5.
+            span Clasificación química de los aceites esenciales según la especie vegetal
+
+        .tabla-a.color-acento-botones
+          table
+            thead
+              tr
+                th Monoterpenoides
+                th Sesquiterpenoides
+                th No terpénicos
+            tbody
+              tr
+                td Romero
+                td Pachulí
+                td Eneldo
+              tr
+                td Salvia
+                td Cúrcuma
+                td Anís
+              tr
+                td Geranio
+                td Jengibre
+                td Hinojo
+              tr
+                td Citronela
+                td Vetiver
+                td Tomillo
+              tr
+                td Palmarrosa
+                td Copaiba
+                td Orégano
+              tr
+                td Albahaca
+                td Cedro
+                td Ylang-Ylang
+              tr
+                td Rosa
+                td Clavo
+                td Canela
+              tr
+                td Pino
+                td Mirra
+                td Ajedrea
+              tr
+                td Eucalipto
+                td Manzanilla
+                td Narciso
+              tr
+                td Cítricos
+                td.text-center —
+                td Tarragón
+              tr
+                td Ciprés
+                td.text-center —
+                td.text-center —
+              tr
+                td Lavanda
+                td.text-center —
+                td.text-center —
+              tr
+                td Menta
+                td.text-center —
+                td.text-center —
 
 
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-12
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Tabla 6.
+            span Extractos utilizados en la agricultura
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        .tabla-a.color-acento-botones
+          table
+            thead
+              tr
+                th Extracto
+                th Acción
+                th Organismo que combate
+            tbody
+              tr
+                td Extracto de ajenjo
+                td Repelente
+                td Controla babosas
+              tr
+                td Extracto de ajo
+                td Insecticida / acaricida
+                td Diferentes insectos de las hortalizas
+              tr
+                td Extracto de albahaca
+                td Repelente
+                td Mosca blanca
+              tr
+                td Extracto de canela
+                td Herbicida
+                td Gramíneas
+              tr
+                td Extracto de clavo
+                td Herbicida
+                td #[em Amaranthus sp] / #[em Ipomoea sp]
+              tr
+                td Extracto de crisantemo
+                td Insecticida / acaricida
+                td #[em Eriophyta japonica] / #[em Sacadodes pyrelis]
+              tr
+                td Extracto de fríjol
+                td Fungicida
+                td #[em Pseudoperonospora cubensis] / #[em Botrytis cinerea]
+              tr
+                td Extracto de dioscorea
+                td Insecticida / acaricida
+                td #[em Alabama argillacea]
+              tr
+                td Extracto de lavanda
+                td Repelente
+                td Controla babosas y moscas
+              tr
+                td Extracto de eucalipto
+                td Herbicida
+                td #[em Eleusine indica]
 
 
 
@@ -420,8 +724,38 @@
 <script>
 export default {
   name: 'Tema1',
+  components: {},
   data: () => ({
-    // variables de vue
+    datosSlyder: [
+      {
+        titulo: 'Defensa química',
+        texto:
+          'Los aceites esenciales contienen compuestos que actúan como mecanismos de defensa natural, capaces de repeler insectos y herbívoros o inhibir el crecimiento de microorganismos patógenos.',
+        imagen: require('@/assets/curso/Tema1/sli1.png'),
+        // leyendaImagen: 'Leyenda de la imagen',
+      },
+      {
+        titulo: 'Atracción de polinizadores',
+        texto:
+          'Los aromas intensos y específicos emitidos por los aceites esenciales atraen insectos polinizadores, facilitando los procesos de polinización y reproducción vegetal.',
+        imagen: require('@/assets/curso/Tema1/sli2.png'),
+        // leyendaImagen: 'Leyenda de la imagen',
+      },
+      {
+        titulo: 'Adaptación al estrés ambiental',
+        texto:
+          'Estas sustancias ayudan a las plantas a tolerar condiciones ambientales adversas, como altas temperaturas, radiación solar intensa o periodos de sequía.',
+        imagen: require('@/assets/curso/Tema1/sli3.png'),
+        // leyendaImagen: 'Leyenda de la imagen',
+      },
+      {
+        titulo: 'Comunicación química',
+        texto:
+          'Los compuestos aromáticos permiten la interacción entre plantas y otros organismos del ecosistema, favoreciendo relaciones ecológicas complejas.',
+        imagen: require('@/assets/curso/Tema1/sli4.png'),
+        // leyendaImagen: 'Leyenda de la imagen',
+      },
+    ],
   }),
   mounted() {
     this.$nextTick(() => {
