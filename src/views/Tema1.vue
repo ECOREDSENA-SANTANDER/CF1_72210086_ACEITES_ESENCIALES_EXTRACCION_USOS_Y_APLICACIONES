@@ -55,7 +55,7 @@
 
       p.mb-3 Los aceites esenciales pueden encontrarse en diferentes partes de la planta, y su concentración varía según la especie vegetal. Entre las estructuras donde suelen acumularse se incluyen:
       
-      .tarjeta.bg2.p-4.mb-4
+      .tarjeta.bg2.p-4.mb-4(data-aos="fade-left") 
         SlyderA(tipo="b")(data-aos="fade-left") 
           .row.justify-content-center.p-4
             .col-lg-6.mb-4.mb-md-0.col-md-12
@@ -168,7 +168,7 @@
 
       p.mb-4 Además de su aprovechamiento por parte del ser humano, los aceites esenciales cumplen funciones esenciales para la supervivencia y adaptación de las plantas, entre las que se destacan:
       
-      SlyderB.mb-5(:datos="datosSlyder").bg10.p-4.text-white
+      SlyderB.mb-5(:datos="datosSlyder").bg10.p-4.text-white(data-aos="fade-left") 
 
       p.mb-4 Los compuestos químicos de las plantas se dividen en dos grandes grupos:
 
@@ -204,7 +204,7 @@
       p Como se presenta en el esquema anterior, una esencia o un aceite esencial no está compuesto por un único metabolito, sino por una mezcla compleja de diversos metabolitos secundarios. Entre estos se destacan aquellos de uso frecuente en la industria, la medicina y en múltiples aplicaciones de la vida cotidiana, debido a sus propiedades aromáticas, terapéuticas y funcionales.
       p.mb-4 Los aceites esenciales están conformados principalmente por las siguientes clases de sustancias volátiles:
 
-      SlyderF(columnas="col-lg-6 col-xl-4").mb-5
+      SlyderF(columnas="col-lg-6 col-xl-4").mb-5(data-aos="fade-left") 
         .tarjeta.bg4.p-4
           .row.justify-content-center.mb-3
             .col-6.col-md-4.col-lg-7
@@ -341,7 +341,7 @@
             p.text-white.mb-0 Para una correcta identificación de la especie, se recomienda utilizar no solo el nombre común de la planta, sino también su nombre científico, conformado por el género y la especie. Esto permite evitar ambigüedades, ya que un mismo nombre común puede emplearse para distintas especies según la región. En contraste, el nombre científico o botánico es universal y se mantiene constante en todo el mundo, independientemente del idioma o la ubicación geográfica.
 
 
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left") 
         .col-lg-12
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Tabla 3.
@@ -488,7 +488,7 @@
       p Las #[b propiedades físicas] de los aceites esenciales se refieren a aquellas características que pueden percibirse o medirse sin alterar su composición química. Estas propiedades son fundamentales para su identificación, control de calidad y aplicación industrial.
       p.mb-4 #[b Las propiedades químicas] están directamente relacionadas con la estructura molecular de los compuestos que conforman los aceites esenciales y con su comportamiento frente a diferentes agentes químicos. Estas propiedades son determinantes para evaluar la pureza, estabilidad y calidad del producto.
 
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left") 
         .col-lg-12
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Tabla 4.
@@ -550,8 +550,86 @@
             img.w-card-icon(src="@/assets/curso/Tema2/gota.svg")
             h3.bg2.py-2.w-card-text.text-white Consistencia
 
+      TabsA.color-acento-botones.mb-4(data-aos="fade-left") 
+        .tarjeta.color-acento-botones--borde.p-4(titulo="Esencias")
+          .row.justify-content-center.align-items-center.p-4
+            .col-lg-7
+              p Líquidos volátiles a temperatura ambiente, de textura ligera y fácil evaporación.
+            .col-lg-5.col-11.col-md-9
+              img(src="@/assets/curso/Tema1/img13.png")
+        
+        .tarjeta.color-acento-botones--borde.p-4(titulo="Bálsamos")
+          .row.justify-content-center.align-items-center.p-4
+            .col-lg-7
+              p Presentan una consistencia espesa, poco volátil, con tendencia a la polimerización.
+            .col-lg-5.col-11.col-md-9
+              img(src="@/assets/curso/Tema1/img14.png")
+        
+        .tarjeta.color-acento-botones--borde.p-4(titulo="Oleorresinas")
+          .row.justify-content-center.align-items-center.p-4
+            .col-lg-7
+              p Contienen el aroma de la planta de forma concentrada; son muy viscosas.
+            .col-lg-5.col-11.col-md-9
+              img(src="@/assets/curso/Tema1/img15.png")
 
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-md-11.col-lg-12.col-12
+          .d-flex.align-items-center.mt-4
+            img.w-card-icon(src="@/assets/curso/Tema2/gota.svg")
+            h3.bg2.py-2.w-card-text.text-white Origen
+
+      TabsA.color-acento-botones.mb-4(data-aos="fade-left") 
+        .tarjeta.color-acento-botones--borde.p-4(titulo="Naturales")
+          .row.justify-content-center.align-items-center.p-4
+            .col-lg-7
+              p Se obtienen directamente de la planta y no sufren modificaciones físicas ni químicas; corresponden a aceites esenciales.
+            .col-lg-5.col-11.col-md-9
+              img(src="@/assets/curso/Tema1/img16.png")
+
+        .tarjeta.color-acento-botones--borde.p-4(titulo="Artificiales")
+          .row.justify-content-center.align-items-center.p-4
+            .col-lg-7
+              p Se obtienen por enriquecimiento o modificación de la esencia; no poseen los mismos beneficios que los aceites naturales.
+            .col-lg-5.col-11.col-md-9
+              img(src="@/assets/curso/Tema1/img17.png")
+
+        .tarjeta.color-acento-botones--borde.p-4(titulo="Sintéticos")
+          .row.justify-content-center.align-items-center.p-4
+            .col-lg-7
+              p Son producidos químicamente mediante la combinación de componentes; imitan aromas naturales.
+            .col-lg-5.col-11.col-md-9
+              img(src="@/assets/curso/Tema1/img18.png")
+
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-md-11.col-lg-12.col-12
+          .d-flex.align-items-center.mt-4
+            img.w-card-icon(src="@/assets/curso/Tema2/gota.svg")
+            h3.bg2.py-2.w-card-text.text-white Naturaleza química del compuesto
+
+      TabsA.color-acento-botones.mb-4(data-aos="fade-left") 
+        .tarjeta.color-acento-botones--borde.p-4(titulo="Monoterpenoides")
+          .row.justify-content-center.align-items-center.p-4
+            .col-lg-7
+              p Compuestos volátiles constituidos por dos moléculas de isopreno; frecuentes en aceites cítricos y frescos.
+            .col-lg-5.col-11.col-md-9
+              img(src="@/assets/curso/Tema1/img19.png")
+
+        .tarjeta.color-acento-botones--borde.p-4(titulo="Sesquiterpenoides")
+          .row.justify-content-center.align-items-center.p-4
+            .col-lg-7
+              p Compuestos formados por tres moléculas de isopreno; presentan aromas más intensos y persistentes.
+            .col-lg-5.col-11.col-md-9
+              img(src="@/assets/curso/Tema1/img20.png")
+
+        .tarjeta.color-acento-botones--borde.p-4(titulo="No terpénicos")
+          .row.justify-content-center.align-items-center.p-4
+            .col-lg-7
+              p Compuestos constituidos por fenoles y fenilpropanoides, con aromas fuertes y alta actividad biológica.
+            .col-lg-5.col-11.col-md-9
+              img(src="@/assets/curso/Tema1/img21.png")
+
+      .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left") 
         .col-lg-12
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Tabla 5.
@@ -617,8 +695,50 @@
                 td Menta
                 td.text-center —
                 td.text-center —
+      
+      .fondot2.p-3.mb-4(data-aos="fade-left") 
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-7.col-md-10
+            .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+              .col-md-10.col-lg-12.col-12
+                .d-flex.align-items-center.mt-4
+                  img.w-card-icon(src="@/assets/curso/Tema2/gota2.svg")
+                  h3.bg2.py-2.w-card-text.text-white Importancia de los aceites esenciales
+            p.text-white Los aceites esenciales tienen una gran relevancia para el ser humano debido a su amplio uso en áreas como la medicina, la cosmética, la aromaterapia, la culinaria y otras industrias afines. Su creciente aceptación se relaciona con la búsqueda actual de estilos de vida más saludables y el interés por productos de origen natural, valorados por sus propiedades terapéuticas, sensoriales y funcionales.
+            p.text-white Uno de los campos con mayor auge en la actualidad es la aromaterapia, la cual se define como una práctica terapéutica natural orientada a promover el equilibrio entre cuerpo, mente y espíritu mediante el uso de aceites esenciales extraídos de plantas. Su aplicación más común se realiza a través de masajes, donde se combinan los efectos del aceite a nivel cutáneo y olfativo, generando beneficios físicos y psicológicos. Diversos estudios han demostrado que los aromas influyen directamente en las emociones, el estado de ánimo y los procesos mentales, contribuyendo a la reducción del estrés y la relajación general del organismo. Para estos tratamientos es indispensable el uso de aceites esenciales naturales y puros, ya que garantizan una mayor efectividad terapéutica.
+          .col-lg-4.col-md-7
+            img(src='@/assets/curso/Tema2/img07.png', alt='')
+
+      p Por otra parte, en el ámbito de la agricultura, los aceites esenciales y extractos vegetales han cobrado importancia como alternativas sostenibles para el control de plagas, enfermedades y malezas, con el fin de reducir el impacto negativo sobre la salud humana y el medio ambiente. Los metabolitos secundarios producidos por las plantas actúan como mecanismos naturales de defensa frente a insectos, hongos y bacterias, lo que ha incentivado su uso en diversos países latinoamericanos.
+      p.mb-4 Entre las principales ventajas de estos extractos naturales se destacan:
 
 
+      .row.justify-content-center(data-aos="flip-up")  
+        .col-lg-3.col-md-6.mb-4
+          .overflow-hidden.h-100.cambiartarjeta1.p-4(data-aos="fade-left")
+            img.img-a.img-t.mb-3(src='@/assets/curso/Tema1/18.svg', alt='')
+            .p-2.mb-4
+              h4.text-center.text-white Alta efectividad
+        
+        .col-lg-3.col-md-6.mb-4
+          .overflow-hidden.h-100.cambiartarjeta1.p-4(data-aos="fade-left")
+            img.img-a.img-t.mb-3(src='@/assets/curso/Tema1/19.svg', alt='')
+            .p-2.mb-4
+              h4.text-center.text-white Bajo costo de preparación
+    
+        
+        .col-lg-3.col-md-6.mb-4
+          .overflow-hidden.h-100.cambiartarjeta1.p-4(data-aos="fade-left")
+            img.img-a.img-t.mb-3(src='@/assets/curso/Tema1/20.svg', alt='')
+            .p-2.mb-4
+              h4.text-center.text-white Fácil obtención
+        
+        .col-lg-3.col-md-6.mb-4
+          .overflow-hidden.h-100.cambiartarjeta1.p-4(data-aos="fade-left")
+            img.img-a.img-t.mb-3(src='@/assets/curso/Tema1/21.svg', alt='')
+            .p-1.mb-4
+              h4.text-center.text-white Ausencia de efecto residual
+      p.mb-4  En conjunto, estas características posicionan a los aceites esenciales como una opción valiosa y sostenible en diferentes sectores productivos y terapéuticos.
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-12
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')

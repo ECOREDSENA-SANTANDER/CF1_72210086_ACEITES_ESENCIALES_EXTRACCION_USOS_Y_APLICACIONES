@@ -27,7 +27,7 @@
 
     p.mb-4 Actualmente, el análisis de la calidad y composición de los aceites esenciales se realiza mediante tecnologías analíticas avanzadas. Entre los métodos más utilizados se encuentran:
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left") 
       .col-lg-8
         ol.lista-ol--cuadro.lista-ol--separador
           li.d-flex
@@ -58,7 +58,7 @@
         h2 3.1  Normativa que rige los aceites esenciales
 
       p.mb-4 La regulación de los aceites esenciales depende de la legislación vigente en cada país, la cual establece los criterios de calidad, seguridad y comercialización aplicables a los productos que se producen o distribuyen en su territorio. Aunque estas normativas presentan similitudes a nivel general, existen diferencias significativas relacionadas con el uso final del aceite esencial, ya sea cosmético, farmacéutico, alimentario o aromaterapéutico.
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left") 
       .col-lg-12
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 10.

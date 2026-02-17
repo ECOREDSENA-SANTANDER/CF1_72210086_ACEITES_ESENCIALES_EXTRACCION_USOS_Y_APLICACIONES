@@ -37,7 +37,7 @@
                 h4.text-center Tipo de planta y especie botánica
               
 
-        .col-md-6.col-lg-4.mb-5
+        .col-md-6.col-lg-4.mb-5(data-aos="fade-left") 
           .tarjeta-avatar
             img(src='@/assets/curso/Tema2/2.svg' alt='')
             .tarjeta.bg3
@@ -45,7 +45,7 @@
                 h4.text-center Parte de la planta utilizada (hojas, flores, corteza, semillas, frutos)
                
 
-        .col-md-6.col-lg-4.mb-5
+        .col-md-6.col-lg-4.mb-5(data-aos="fade-left") 
           .tarjeta-avatar
             img(src='@/assets/curso/Tema2/3.svg' alt='')
             .tarjeta.bg3
@@ -69,7 +69,7 @@
 
       p.mb-4 El adecuado control de estos factores es fundamental para garantizar un producto homogéneo, estable y de buena calidad, así como para evitar pérdidas de aroma o alteraciones indeseadas del aceite esencial.
 
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left") 
         .col-lg-12
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Tabla 7.
@@ -138,7 +138,7 @@
 
       p.mb-5 Según el tipo de planta, se selecciona el método de extracción de sus aceites esenciales, que puede ser por medio de procesos químicos o físicos. No obstante, los siguientes factores también son determinantes para definir dicho procedimiento: 
 
-      SlyderF(columnas="col-lg-6 col-xl-4").mb-4
+      SlyderF(columnas="col-lg-6 col-xl-4").mb-4(data-aos="fade-left") 
         .tarjeta.bg4.p-4
           .row.justify-content-center.mb-3
             .col-6.col-md-4
@@ -223,7 +223,7 @@
           h2.text-center.text-white Estabilidad
           p.text-center.text-white Capacidad del aceite esencial para mantener sus propiedades en el tiempo.
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left") 
       .col-lg-5.col-md-8.mb-4
         img(src='@/assets/curso/Tema2/img02.png' alt='')
       .col-lg-7
@@ -245,7 +245,7 @@
           h3.bg2.py-2.w-card-text.text-white Métodos directos de extracción de aceites esenciales
 
 
-    .tarjeta.bg2.p-4
+    .tarjeta.bg2.p-4(data-aos="fade-left") 
       SlyderA(tipo="b")
         .row.justify-content-center.p-4
           .col-lg-6.mb-4.mb-md-0.col-md-12
@@ -292,7 +292,7 @@
       h2 2.2  Métodos indirectos 
     p.mb-4 Los métodos indirectos se emplean debido a la composición heterogénea de los aceites esenciales, los cuales están formados por una mezcla compleja de compuestos altamente volátiles. Estos métodos permiten separar dichas sustancias sin alterar significativamente sus propiedades químicas y aromáticas.
 
-    .fondot2.p-3.mb-5
+    .fondot2.p-3.mb-5(data-aos="fade-left") 
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-7.col-md-10
           .row.justify-content-start.mb-4(data-aos="zoom-in-left")
@@ -307,7 +307,7 @@
 
     p.mb-4 Para determinar el tamaño del equipo, se deben tomar en cuenta los siguientes elementos: 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left") 
       .col-lg-12
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 1.
@@ -316,7 +316,7 @@
         img(src='@/assets/curso/Tema2/fig1.svg', alt='Incluye la cantidad de material vegetal disponible para la destilación, las fuentes de energía y su disponibilidad, la disponibilidad de agua y mano de obra, y las condiciones de transporte e instalaciones para el almacenamiento de las materias primas y del aceite obtenido.')
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left") 
       .col-lg-12
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 8.
@@ -361,7 +361,7 @@
               td.text-left Aumenta el rendimiento del aceite, mejora la liberación de compuestos aromáticos y reduce el tiempo de destilación.
               td.text-left Riesgo de fermentación si no se controla, posible alteración del perfil químico y mayor tiempo total de proceso.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left") 
       .col-lg-12
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 9.
