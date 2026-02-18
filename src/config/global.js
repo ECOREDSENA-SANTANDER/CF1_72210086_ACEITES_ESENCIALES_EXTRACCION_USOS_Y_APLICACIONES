@@ -216,7 +216,7 @@ export default {
     },
     {
       referencia:
-        'Bravo, E. M. G., Robalino, P. J. P., Durán, A. P. G., & Mancero, O. V. C. (2025). Métodos de extracción de aceites esenciales de cítricos y eucalipto: comparación de eficiencia, calidad y sostenibilidad: una revisión sistemática. RECIMUNDO, 9(2), 646–659.',
+        'Bravo, E. M. G., Robalino, P. J. P., Durán, A. P. G., & Mancero, O. V. C. (2025). Métodos de extracción de aceites esenciales de cítricos y eucalipto: comparación de eficiencia, calidad y sostenibilidad: una revisión sistemática. RECIMUNDO: Revista Científica de la Investigación y el Conocimiento, 9(2), 646–659.',
       link: '',
     },
     {
