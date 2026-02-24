@@ -85,7 +85,7 @@
           .row.justify-content-center.p-4
             .col-lg-6.mb-4.mb-md-0.col-md-12
               h4.text-white Raíces
-              p.text-white Acumulan aceites esenciales con aromas terrosos y profundos.
+              p.text-white Raíces Acumulan aceites esenciales con aromas terrosos y profundos, utilizados en perfumería y medicina tradicional.
             .col-lg-5.col-md-8
               figure
                 img(src='@/assets/curso/Tema1/04.png', alt='Raíces')
@@ -136,7 +136,7 @@
                 img(src='@/assets/curso/Tema1/09.png', alt='Semillas')
 
 
-      p.mb-4 Los aceites esenciales están formados por diversas sustancias químicas, entre las cuales destacan los terpenos, compuestos orgánicos caracterizados por su olor intenso y su papel fundamental como constituyentes estructurales de los aceites esenciales. Estas sustancias son responsables, en gran medida, de las propiedades aromáticas y biológicas de los aceites.
+      p.mb-4 Estas partes vegetales liberan al exterior sustancias aromáticas que, de acuerdo con su uso, pueden tener aplicaciones:
 
 
       .row.justify-content-center(data-aos="flip-up")  
@@ -144,20 +144,20 @@
           .overflow-hidden.h-100.cambiartarjeta.p-4(data-aos="fade-left")
             img.img-a.img-t.mb-3.icono-cambia1(src='@/assets/curso/Tema1/1.svg', alt='')
             .p-2.mb-4
-              h4.text-center.text-white Perfumeras.
+              h4.text-center.text-white Perfumeras
         
         .col-lg-4.col-md-6.mb-4
           .overflow-hidden.h-100.cambiartarjeta.p-4(data-aos="fade-left")
             img.img-a.img-t.mb-3.icono-cambia1(src='@/assets/curso/Tema1/2.svg', alt='')
             .p-2.mb-4
-              h4.text-center.text-white Condimentarias.
+              h4.text-center.text-white Condimentarias
     
         
         .col-lg-4.col-md-6.mb-4
           .overflow-hidden.h-100.cambiartarjeta.p-4(data-aos="fade-left")
             img.img-a.img-t.mb-3.icono-cambia1(src='@/assets/curso/Tema1/3.svg', alt='')
             .p-2.mb-4
-              h4.text-center.text-white Terapéuticas.
+              h4.text-center.text-white Terapéuticas
 
 
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
@@ -209,28 +209,28 @@
           .row.justify-content-center.mb-3
             .col-6.col-md-4.col-lg-7
               img(src='@/assets/curso/Tema1/001.svg' alt='')
-          h2.text-center.text-white Terpenos o terpenoides
+          h3.text-center.text-white Terpenos o terpenoides
           p.text-center.text-white Son compuestos orgánicos naturales derivados del isopreno. Constituyen el grupo más abundante en los aceites esenciales y son responsables de gran parte de sus aromas característicos. Presentan propiedades antimicrobianas, antiinflamatorias y antioxidantes.
 
         .tarjeta.bg4.p-4
           .row.justify-content-center.mb-3
             .col-6.col-md-4.col-lg-7
               img(src='@/assets/curso/Tema1/002.svg' alt='')
-          h2.text-center.text-white Compuestos fenólicos y sus derivados
+          h3.text-center.text-white Compuestos fenólicos y sus derivados
           p.text-center.text-white Son sustancias químicas que poseen uno o más grupos hidroxilo unidos a un anillo aromático. Se caracterizan por aromas intensos y una alta actividad biológica, destacándose por sus propiedades antioxidantes y antimicrobianas.
 
         .tarjeta.bg4.p-4
           .row.justify-content-center.mb-3
             .col-6.col-md-4.col-lg-7
               img(src='@/assets/curso/Tema1/003.svg' alt='')
-          h2.text-center.text-white Alcoholes, ésteres, ácidos y otros compuestos orgánicos
+          h3.text-center.text-white Alcoholes, ésteres, ácidos y otros compuestos orgánicos
           p.text-center.text-white Incluyen diversos compuestos oxigenados que aportan aromas suaves, florales o frutales. Los alcoholes tienen efectos antisépticos, los ésteres aportan aromas dulces y relajantes, y los ácidos aportan notas aromáticas más intensas.
 
         .tarjeta.bg4.p-4
           .row.justify-content-center.mb-3
             .col-6.col-md-4.col-lg-7
               img(src='@/assets/curso/Tema1/004.svg' alt='')
-          h2.text-center.text-white Compuestos con átomos de nitrógeno y azufre (poco frecuentes)
+          h3.text-center.text-white Compuestos con átomos de nitrógeno y azufre (poco frecuentes)
           p.text-center.text-white Son compuestos presentes en baja proporción dentro de los aceites esenciales. Producen aromas fuertes y penetrantes y poseen propiedades biológicas específicas.
 
       .row.justify-content-center.align-items-center.mb-3(data-aos="fade-left") 
@@ -276,7 +276,7 @@
         .col-lg-7
           .cajon.color-secundario.p-5
             p.px-3.mb-4 Los aceites esenciales se producen en cantidades que oscilan entre el 0,5 % y el 6 % en plantas aromáticas, las cuales suelen ser hierbas o arbustos con olores intensos. Algunas especies como la canela, limonaria, geranio y pachulí han sido introducidas y cultivadas en Colombia con fines ornamentales e industriales.
-            p.px-3 Finalmente, ciertas plantas aromáticas solo desarrollan su fragancia característica tras procesos específicos de extracción, como ocurre con el pachulí (Pogostemon patchouli), cuyas hojas requieren una fermentación previa para la obtención de su aceite esencial.
+            p.px-3 Finalmente, ciertas plantas aromáticas solo desarrollan su fragancia característica tras procesos específicos de extracción, como ocurre con el pachulí (#[em Pogostemon patchouli]), cuyas hojas requieren una fermentación previa para la obtención de su aceite esencial.
         .col-lg-5.d-none.d-lg-block
           img(src="@/assets/curso/Tema1/img09.png")
 
@@ -290,26 +290,26 @@
         table
           thead
             tr
-              th.bg7.negro Niveles del lenguaje
-              th.bg7.negro Niveles del lenguaje
-              th.bg7.negro Niveles del lenguaje
+              th.bg7.negro Tipo de estructura celular
+              th.bg7.negro Descripción
+              th.bg7.negro Ejemplos de plantas
         table
           tr.bg8
             th.h4.w-25 Células oleíferas
             td.w-25.text-left Son células especializadas en la producción y almacenamiento de aceites esenciales en su interior. Se localizan generalmente en el parénquima de la planta y concentran el aceite en vacuolas o inclusiones celulares.
-            th.w-25.text-left.h5 Cúrcuma, vainilla, jengibre, laurel.
+            td.w-25.text-left Cúrcuma, vainilla, jengibre, laurel.
           tr
             th.h4 Canales secretores
-            td.text-left Son conductos alargados formados por varias células, donde los aceites esenciales se producen y se acumulan a lo largo del canal. Permiten la movilización de la sustancia.
-            th.h5.text-left Pino, artemisia, anís, angélica.
+            td.text-left Son conductos alargados formados por varias células, donde los aceites esenciales se producen y se acumulan a lo largo del canal. Permiten la movilización de la sustancia dentro del tejido vegetal.
+            td.text-left Pino, artemisia, anís, angélica.
           tr.bg8
             th.h4 Tricomas
             td.text-left Son estructuras pilosas ubicadas principalmente en la superficie de hojas y flores. Secretan aceites esenciales hacia el exterior y cumplen funciones de defensa y atracción de polinizadores.
-            th.h5.text-left Romero, cilantro, menta, geranios, jazmín.
+            td.text-left Romero, cilantro, menta, geranios, jazmín.
           tr
             th.h4 Glándulas
             td.text-left Son estructuras secretoras especializadas que concentran grandes cantidades de aceites esenciales, especialmente en frutos y hojas. Son características de varias especies aromáticas.
-            th.h5.text-left Cítricos, eucaliptos.
+            td.text-left Cítricos, eucaliptos.
 
 
       .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left") 
@@ -358,7 +358,7 @@
               tr
                 th Ciprés
                 td #[em Cupressus sempervirens]
-                td(rowspan="2") Ramas.
+                td(rowspan="2") Ramas
               tr
                 th Jara
                 td #[em Cistus ladanifer]
@@ -367,7 +367,7 @@
               tr
                 th Lavanda
                 td #[em Lavandula angustifolia]
-                td(rowspan="2") Sumidades floridas.
+                td(rowspan="2") Sumidades floridas
               tr
                 th Lavandín
                 td #[em Híbrido de Lavandula angustifolia y Lavandula latifolia]
@@ -376,7 +376,7 @@
               tr
                 th Menta
                 td #[em Mentha piperita]
-                td(rowspan="3") Planta entera.
+                td(rowspan="3") Planta entera
               tr
                 th Yerbabuena
                 td #[em Mentha citrata]
@@ -388,7 +388,7 @@
               tr
                 th Eneldo
                 td #[em Anethum graveolens]
-                td(rowspan="2") Hojas.
+                td(rowspan="2") Hojas
               tr
                 th Geranio
                 td #[em Pelargonium odoratissimum]
@@ -397,7 +397,7 @@
               tr
                 th Rosa
                 td #[em Rosa centifolia]
-                td(rowspan="2") Flor.
+                td(rowspan="2") Flor
               tr
                 th Ylang-ylang
                 td #[em Cananga odorata]
@@ -406,7 +406,7 @@
               tr
                 th Limón
                 td #[em Citrus x limon]
-                td(rowspan="2") Flavedo (capa externa del fruto).
+                td(rowspan="2") Flavedo (capa externa del fruto)
               tr
                 th Mandarina
                 td #[em Citrus reticulata]
@@ -415,13 +415,13 @@
               tr
                 th Naranja
                 td #[em Citrus x aurantium]
-                td Flavedo, flores y hojas.
+                td Flavedo, flores y hojas
               
               //- Grupo Planta entera con flor
               tr
                 th Romero
                 td #[em Rosmarinus officinalis]
-                td(rowspan="4") Planta entera con flor.
+                td(rowspan="4") Planta entera con flor
               tr
                 th Tomillo
                 td #[em Thymus vulgaris]
@@ -436,49 +436,49 @@
               tr
                 th Melisa o toronjil
                 td #[em Melissa officinalis]
-                td Planta fresca.
+                td Planta fresca
               tr
                 th Abeto de Siberia
                 td #[em Abies sibirica]
-                td Acículas.
+                td Acículas
               tr
                 th Manzanilla
                 td #[em Matricaria recutita]
-                td Flor seca.
+                td Flor seca
               tr
                 th Canela
                 td #[em Cinnamomum verum]
-                td Corteza.
+                td Corteza
               tr
                 th Cedro
                 td #[em Cedrus atlantica]
-                td Madera.
+                td Madera
               tr
                 th Lima
                 td #[em Citrus maxima]
-                td Fruto entero.
+                td Fruto entero
               tr
                 th Clavo
                 td #[em Syzygium aromaticum]
-                td Botones florales.
+                td Botones florales
               tr
                 th Vetiver
                 td #[em Chrysopogon zizanioides]
-                td Raíz.
+                td Raíz
               tr
                 th Mostaza
                 td #[em Brassica nigra]
-                td Mostaza.
+                td Mostaza
       
       .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left") 
         .col-lg-7
           .cajon.color-secundario.p-5
             p.px-3.mb-3 Otra característica fundamental de los aceites esenciales está relacionada con el momento de cosecha de la planta, ya que este factor influye directamente en el rendimiento del proceso de extracción y en la composición química del producto final.
-            p.px-3.mb-0 Un ejemplo de ello es el aceite esencial de salvia (Salvia officinalis), el cual contiene una cetona neurotóxica cuya concentración varía según la época de recolección: es más alta cuando la planta se cosecha después de la floración y más baja cuando se recolecta antes de florecer, siendo esta última la condición más adecuada.
+            p.px-3.mb-0 Un ejemplo de ello es el aceite esencial de salvia (#[em alvia officinalis]), el cual contiene una cetona neurotóxica cuya concentración varía según la época de recolección: es más alta cuando la planta se cosecha después de la floración y más baja cuando se recolecta antes de florecer, siendo esta última la condición más adecuada.
         .col-lg-5.d-none.d-lg-block
           img(src="@/assets/curso/Tema1/img12.png")
 
-      p.mb-4 Un comportamiento similar se observa en el jazmín (Jasminum officinale), cuyas flores deben cosecharse en horas de la mañana para obtener un aceite esencial con una composición óptima. Cuando la recolección se realiza en horas de la tarde, el aceite presenta compuestos responsables de notas odoríferas poco agradables, lo que disminuye su valor para la industria de la perfumería y la aromaterapia.
+      p.mb-4 Un comportamiento similar se observa en el jazmín (#[em Jasminum officinale]), cuyas flores deben cosecharse en horas de la mañana para obtener un aceite esencial con una composición óptima. Cuando la recolección se realiza en horas de la tarde, el aceite presenta compuestos responsables de notas odoríferas poco agradables, lo que disminuye su valor para la industria de la perfumería y la aromaterapia.
 
 
       separador
@@ -582,7 +582,7 @@
         .tarjeta.color-acento-botones--borde.p-4(titulo="Naturales")
           .row.justify-content-center.align-items-center.p-4
             .col-lg-7
-              p Se obtienen directamente de la planta y no sufren modificaciones físicas ni químicas; corresponden a aceites esenciales.
+              p Se obtienen directamente de la planta y no sufren modificaciones físicas ni químicas; corresponden a aceites esenciales puros.
             .col-lg-5.col-11.col-md-9
               img(src="@/assets/curso/Tema1/img16.png")
 
@@ -605,7 +605,7 @@
         .col-md-11.col-lg-12.col-12
           .d-flex.align-items-center.mt-4
             img.w-card-icon(src="@/assets/curso/Tema2/gota.svg")
-            h3.bg2.py-2.w-card-text.text-white Naturaleza química del compuesto
+            h3.bg2.py-2.w-card-text.text-white Naturaleza química del compuesto predominante
 
       TabsA.color-acento-botones.mb-4(data-aos="fade-left") 
         .tarjeta.color-acento-botones--borde.p-4(titulo="Monoterpenoides")
@@ -780,11 +780,13 @@
               tr
                 td Extracto de fríjol
                 td Fungicida
-                td #[em Pseudoperonospora cubensis] / #[em Botrytis cinerea]
+                td #[em Pseudoperonospora cubensis] / #[em Botrytis cinerea]/ #[em Sphaeroteca pannosa]
+
               tr
                 td Extracto de dioscorea
                 td Insecticida / acaricida
-                td #[em Alabama argillacea]
+                td #[em Alabama argillacea] / #[em Liriomyza quadrata]
+
               tr
                 td Extracto de lavanda
                 td Repelente
@@ -792,7 +794,8 @@
               tr
                 td Extracto de eucalipto
                 td Herbicida
-                td #[em Eleusine indica]
+                td #[em Eleusine indica] / #[em Portulaca oleracea]
+
 
 
 

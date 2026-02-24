@@ -104,11 +104,6 @@ export default {
         titulo: 'Glosario',
       },
       {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
-      {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
@@ -130,7 +125,6 @@ export default {
       },
     ],
   },
-  complementario: [],
   glosario: [
     {
       termino: 'Aceite esencial',
@@ -265,8 +259,8 @@ export default {
           centro: 'Centro para la Formación Cafetera - Regional Caldas',
         },
         {
-          nombre: '',
-          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          nombre: 'Erika Fernanda Mejía Pinzón',
+          cargo: 'Evaludadora instruccional',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -295,12 +289,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Erika Fernanda Mejía Pinzón',
+          nombre: 'Laura Paola Gelvez Manosalva',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },

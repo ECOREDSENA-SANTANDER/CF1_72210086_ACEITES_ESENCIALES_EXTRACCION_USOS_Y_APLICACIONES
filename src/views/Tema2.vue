@@ -98,7 +98,7 @@
                   td.text-left Método mecánico que aplica presión continua al material vegetal.
 
                 tr
-                  th(rowspan='7') Métodos indirectos
+                  th(rowspan='6') Métodos indirectos
                   td Destilación molecular
                   td.text-left Separación por volatilidad a baja presión para preservar compuestos sensibles.
                 tr
@@ -116,12 +116,13 @@
                 tr
                   td Destilación previa maceración
                   td.text-left Maceración previa del vegetal para facilitar la extracción.
-                tr
-                  td Maceración en grasa
-                  td.text-left Uso de grasas para absorber compuestos aromáticos (técnica tradicional).
+                
 
                 tr
-                  th(rowspan='2') Extracción con solventes
+                  th(rowspan='3') Extracción con solventes
+                  td Maceración en grasa
+                  td.text-left Uso de grasas para absorber compuestos aromáticos (técnica tradicional).
+                tr  
                   td Extracción con solventes volátiles
                   td.text-left Uso de solventes orgánicos para disolver aceites esenciales.
                 tr
@@ -133,7 +134,7 @@
                   td Extracción con microondas
                   td.text-left Uso de microondas para liberar compuestos volátiles de forma rápida.
                 tr
-                  td Enfloración (enfleurage)
+                  td Enfloración (#[em enfleurage])
                   td.text-left Técnica tradicional para flores delicadas mediante grasas sólidas.
 
       p.mb-5 Según el tipo de planta, se selecciona el método de extracción de sus aceites esenciales, que puede ser por medio de procesos químicos o físicos. No obstante, los siguientes factores también son determinantes para definir dicho procedimiento: 
@@ -376,7 +377,7 @@
               th Desventajas
           tbody
             tr
-              th Maceración en grasa (enfleurage)
+              th Maceración en grasa (#[em enfleurage])
               td.text-left Método tradicional en el que el material vegetal se coloca en contacto con grasas (animales o vegetales) que absorben los compuestos aromáticos. Posteriormente, la grasa aromatizada puede ser tratada con alcohol para recuperar la esencia.
               td.text-left Ideal para flores delicadas, no utiliza calor, conserva fielmente el aroma natural y es un método suave para compuestos termolábiles.
               td.text-left Proceso lento, bajo rendimiento, alto costo operativo y poco viable a gran escala industrial.
@@ -391,7 +392,7 @@
               td.text-left Alta eficiencia, adecuado para materiales con bajo contenido de aceite esencial y permite obtener absolutos de alta concentración aromática.
               td.text-left Posibles residuos de solvente, pérdida de compuestos muy volátiles y uso restringido en productos terapéuticos si no se purifica adecuadamente.
             tr
-              th Extracción por fluidos supercríticos (EFS)
+              th Extracción por Fluidos Supercríticos (EFS)
               td.text-left Técnica avanzada que emplea dióxido de carbono en estado supercrítico como solvente, permitiendo extraer compuestos aromáticos sin altas temperaturas ni solventes orgánicos residuales.
               td.text-left Alta pureza del extracto, excelente conservación del perfil químico, proceso limpio y selectivo, sin residuos tóxicos.
               td.text-left Equipos de alto costo, operación compleja y limitada principalmente a la industria farmacéutica, alimentaria y cosmética avanzada.
