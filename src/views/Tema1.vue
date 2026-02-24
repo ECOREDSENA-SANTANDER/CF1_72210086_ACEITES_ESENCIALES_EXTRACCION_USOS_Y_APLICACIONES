@@ -629,7 +629,7 @@
             .col-lg-5.col-11.col-md-9
               img(src="@/assets/curso/Tema1/img21.png")
 
-      .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left") 
+      .row.justify-content-center.align-items-center.mb-3(data-aos="fade-left") 
         .col-lg-12
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Tabla 5.
@@ -696,18 +696,27 @@
                 td.text-center —
                 td.text-center —
       
-      .fondot2.p-3.mb-4(data-aos="fade-left") 
-        .row.justify-content-center.align-items-center.mb-5
-          .col-lg-7.col-md-10
-            .row.justify-content-start.mb-4(data-aos="zoom-in-left")
-              .col-md-10.col-lg-12.col-12
-                .d-flex.align-items-center.mt-4
-                  img.w-card-icon(src="@/assets/curso/Tema2/gota2.svg")
-                  h3.bg2.py-2.w-card-text.text-white Importancia de los aceites esenciales
-            p.text-white Los aceites esenciales tienen una gran relevancia para el ser humano debido a su amplio uso en áreas como la medicina, la cosmética, la aromaterapia, la culinaria y otras industrias afines. Su creciente aceptación se relaciona con la búsqueda actual de estilos de vida más saludables y el interés por productos de origen natural, valorados por sus propiedades terapéuticas, sensoriales y funcionales.
-            p.text-white Uno de los campos con mayor auge en la actualidad es la aromaterapia, la cual se define como una práctica terapéutica natural orientada a promover el equilibrio entre cuerpo, mente y espíritu mediante el uso de aceites esenciales extraídos de plantas. Su aplicación más común se realiza a través de masajes, donde se combinan los efectos del aceite a nivel cutáneo y olfativo, generando beneficios físicos y psicológicos. Diversos estudios han demostrado que los aromas influyen directamente en las emociones, el estado de ánimo y los procesos mentales, contribuyendo a la reducción del estrés y la relajación general del organismo. Para estos tratamientos es indispensable el uso de aceites esenciales naturales y puros, ya que garantizan una mayor efectividad terapéutica.
-          .col-lg-4.col-md-7
-            img(src='@/assets/curso/Tema1/img22.png', alt='')
+      
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-12.col-md-10
+          .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+            .col-md-10.col-lg-12.col-12
+              .d-flex.align-items-center.mt-4
+                img.w-card-icon(src="@/assets/curso/Tema2/gota2.svg")
+                h3.bg2.py-2.w-card-text.text-white Importancia de los aceites esenciales
+          p Los aceites esenciales tienen una gran relevancia para el ser humano debido a su amplio uso en áreas como la medicina, la cosmética, la aromaterapia, la culinaria y otras industrias afines. Su creciente aceptación se relaciona con la búsqueda actual de estilos de vida más saludables y el interés por productos de origen natural, valorados por sus propiedades terapéuticas, sensoriales y funcionales.
+          p Uno de los campos con mayor auge en la actualidad es la #[b aromaterapia], la cual se define como una práctica terapéutica natural orientada a promover el equilibrio entre cuerpo, mente y espíritu mediante el uso de aceites esenciales extraídos de plantas. Su aplicación más común se realiza a través de masajes, donde se combinan los efectos del aceite a nivel cutáneo y olfativo, generando beneficios físicos y psicológicos. Diversos estudios han demostrado que los aromas influyen directamente en las emociones, el estado de ánimo y los procesos mentales, contribuyendo a la reducción del estrés y la relajación general del organismo. Para estos tratamientos es indispensable el uso de aceites esenciales naturales y puros, ya que garantizan una mayor efectividad terapéutica.
+      
+      img(src='@/assets/curso/Tema1/podcast.svg', alt='Texto que describa la imagen')
+      .row.justify-content-center.g-0(data-aos="fade-right").mb-4
+        .col-lg-12
+          .tarjeta.clr--pink.p-4.rounded-0.h-100.bg1
+            .tarjeta.bg-white.p-4
+              TarjetaAudio.color-acento-botones(
+              texto="Podcast: Importancia de los aceites esenciales"
+              :audio="require('@/assets/curso/Tema1/prueba.mp3')"
+            )
+              .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
 
       p Por otra parte, en el ámbito de la agricultura, los aceites esenciales y extractos vegetales han cobrado importancia como alternativas sostenibles para el control de plagas, enfermedades y malezas, con el fin de reducir el impacto negativo sobre la salud humana y el medio ambiente. Los metabolitos secundarios producidos por las plantas actúan como mecanismos naturales de defensa frente a insectos, hongos y bacterias, lo que ha incentivado su uso en diversos países latinoamericanos.
       p.mb-4 Entre las principales ventajas de estos extractos naturales se destacan:
