@@ -85,7 +85,7 @@
           .row.justify-content-center.p-4
             .col-lg-6.mb-4.mb-md-0.col-md-12
               h4.text-white Raíces
-              p.text-white Raíces Acumulan aceites esenciales con aromas terrosos y profundos, utilizados en perfumería y medicina tradicional.
+              p.text-white Acumulan aceites esenciales con aromas terrosos y profundos, utilizados en perfumería y medicina tradicional.
             .col-lg-5.col-md-8
               figure
                 img(src='@/assets/curso/Tema1/04.png', alt='Raíces')
@@ -474,7 +474,7 @@
         .col-lg-7
           .cajon.color-secundario.p-5
             p.px-3.mb-3 Otra característica fundamental de los aceites esenciales está relacionada con el momento de cosecha de la planta, ya que este factor influye directamente en el rendimiento del proceso de extracción y en la composición química del producto final.
-            p.px-3.mb-0 Un ejemplo de ello es el aceite esencial de salvia (#[em alvia officinalis]), el cual contiene una cetona neurotóxica cuya concentración varía según la época de recolección: es más alta cuando la planta se cosecha después de la floración y más baja cuando se recolecta antes de florecer, siendo esta última la condición más adecuada.
+            p.px-3.mb-0 Un ejemplo de ello es el aceite esencial de salvia (#[em salvia officinalis]), el cual contiene una cetona neurotóxica cuya concentración varía según la época de recolección: es más alta cuando la planta se cosecha después de la floración y más baja cuando se recolecta antes de florecer, siendo esta última la condición más adecuada.
         .col-lg-5.d-none.d-lg-block
           img(src="@/assets/curso/Tema1/img12.png")
 
@@ -704,8 +704,7 @@
               .d-flex.align-items-center.mt-4
                 img.w-card-icon(src="@/assets/curso/Tema2/gota2.svg")
                 h3.bg2.py-2.w-card-text.text-white Importancia de los aceites esenciales
-          p Los aceites esenciales tienen una gran relevancia para el ser humano debido a su amplio uso en áreas como la medicina, la cosmética, la aromaterapia, la culinaria y otras industrias afines. Su creciente aceptación se relaciona con la búsqueda actual de estilos de vida más saludables y el interés por productos de origen natural, valorados por sus propiedades terapéuticas, sensoriales y funcionales.
-          p Uno de los campos con mayor auge en la actualidad es la #[b aromaterapia], la cual se define como una práctica terapéutica natural orientada a promover el equilibrio entre cuerpo, mente y espíritu mediante el uso de aceites esenciales extraídos de plantas. Su aplicación más común se realiza a través de masajes, donde se combinan los efectos del aceite a nivel cutáneo y olfativo, generando beneficios físicos y psicológicos. Diversos estudios han demostrado que los aromas influyen directamente en las emociones, el estado de ánimo y los procesos mentales, contribuyendo a la reducción del estrés y la relajación general del organismo. Para estos tratamientos es indispensable el uso de aceites esenciales naturales y puros, ya que garantizan una mayor efectividad terapéutica.
+       
       
       img(src='@/assets/curso/Tema1/podcast.svg', alt='Texto que describa la imagen')
       .row.justify-content-center.g-0(data-aos="fade-right").mb-4
@@ -714,7 +713,7 @@
             .tarjeta.bg-white.p-4
               TarjetaAudio.color-acento-botones(
               texto="Podcast: Importancia de los aceites esenciales"
-              :audio="require('@/assets/curso/Tema1/prueba.mp3')"
+              :audio="require('@/assets/curso/Tema1/podcast.svg')"
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
 
