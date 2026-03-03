@@ -713,7 +713,7 @@
             .tarjeta.bg-white.p-4
               TarjetaAudio.color-acento-botones(
               texto="Podcast: Importancia de los aceites esenciales"
-              :audio="require('@/assets/curso/Tema1/podcast.svg')"
+              :audio="require('@/assets/curso/Tema1/PODCAST_CF1_72210086.mp3')"
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
 
