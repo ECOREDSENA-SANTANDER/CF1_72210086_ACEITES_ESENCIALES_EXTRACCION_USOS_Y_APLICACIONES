@@ -172,7 +172,7 @@ export default {
         'Características sensoriales de los aceites esenciales, como aroma, color y sabor.',
     },
     {
-      termino: 'Propiedades físico-químicas',
+      termino: 'Propiedades fisicoquímicas',
       significado:
         'Rasgos medibles de los aceites esenciales, como densidad, viscosidad, solubilidad y composición química.',
     },

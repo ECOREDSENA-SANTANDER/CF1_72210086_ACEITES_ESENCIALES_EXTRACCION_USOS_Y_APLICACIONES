@@ -474,7 +474,7 @@
         .col-lg-7
           .cajon.color-secundario.p-5
             p.px-3.mb-3 Otra característica fundamental de los aceites esenciales está relacionada con el momento de cosecha de la planta, ya que este factor influye directamente en el rendimiento del proceso de extracción y en la composición química del producto final.
-            p.px-3.mb-0 Un ejemplo de ello es el aceite esencial de salvia (#[em salvia officinalis]), el cual contiene una cetona neurotóxica cuya concentración varía según la época de recolección: es más alta cuando la planta se cosecha después de la floración y más baja cuando se recolecta antes de florecer, siendo esta última la condición más adecuada.
+            p.px-3.mb-0 Un ejemplo de ello es el aceite esencial de salvia (#[em Salvia officinalis]), el cual contiene una cetona neurotóxica cuya concentración varía según la época de recolección: es más alta cuando la planta se cosecha después de la floración y más baja cuando se recolecta antes de florecer, siendo esta última la condición más adecuada.
         .col-lg-5.d-none.d-lg-block
           img(src="@/assets/curso/Tema1/img12.png")
 
@@ -485,7 +485,7 @@
       #t_1_2.titulo-segundo.mb-5(data-aos="zoom-in-left")
         h2 1.2  Propiedades 
 
-      p Las #[b propiedades físicas] de los aceites esenciales se refieren a aquellas características que pueden percibirse o medirse sin alterar su composición química. Estas propiedades son fundamentales para su identificación, control de calidad y aplicación industrial.
+      p #[b Las propiedades físicas] de los aceites esenciales se refieren a aquellas características que pueden percibirse o medirse sin alterar su composición química. Estas propiedades son fundamentales para su identificación, control de calidad y uso industrial.
       p.mb-4 #[b Las propiedades químicas] están directamente relacionadas con la estructura molecular de los compuestos que conforman los aceites esenciales y con su comportamiento frente a diferentes agentes químicos. Estas propiedades son determinantes para evaluar la pureza, estabilidad y calidad del producto.
 
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left") 
@@ -789,7 +789,7 @@
               tr
                 td Extracto de fríjol
                 td Fungicida
-                td #[em Pseudoperonospora cubensis] / #[em Botrytis cinerea]/ #[em Sphaeroteca pannosa]
+                td #[em Pseudoperonospora cubensis] / #[em Botrytis cinerea]/ #[em Sphaerotheca pannosa]
 
               tr
                 td Extracto de dioscorea

@@ -89,7 +89,7 @@
                   td.text-left Separación mecánica del aceite mediante presión, utilizada principalmente en cáscaras de cítricos.
                 tr
                   td Raspado
-                  td.text-left Liberación del aceite al raspar la superficie vegetal con glándulas oleííferas.
+                  td.text-left Liberación del aceite al raspar la superficie vegetal con glándulas oleíferas.
                 tr
                   td Exudación
                   td.text-left Obtención del aceite a partir de resinas o secreciones naturales de la planta.
@@ -114,7 +114,7 @@
                   td Destilación agua-vapor
                   td.text-left Combinación de vapor externo y agua en contacto con la planta.
                 tr
-                  td Destilación previa maceración
+                  td Destilación con maceración previa
                   td.text-left Maceración previa del vegetal para facilitar la extracción.
                 
 
@@ -261,7 +261,7 @@
         .row.justify-content-center.p-4
           .col-lg-6.mb-4.mb-md-0.col-md-12
             h4.text-white Raspado
-            p.text-white #[b Descripción:] proceso mecanizado diseñado para raspar la superficie de frutos enteros, especialmente cítricos, rompiendo las glándulas oleíferas superficiales y liberando el aceite esencial. En algunos casos el aceite se obtiene directamente y en otros se generan raspaduras aromáticas que requieren prensado posterior.
+            p.text-white #[b Descripción:] proceso mecanizado diseñado para raspar la superficie de frutos enteros, especialmente cítricos, rompiendo las glándulas oleíferas superficiales y liberando el aceite esencial. En algunos casos el aceite se obtiene directamente y, en otros, se generan raspaduras aromáticas que requieren prensado posterior.
             p.text-white #[b Materia prima:] frutos enteros. Producto obtenido: aceite esencial o material aromático.
             p.text-white #[b Ventajas principales:]  reduce la mano de obra, mejora la eficiencia del proceso y es aplicable a gran escala.
           .col-lg-6.col-md-8
