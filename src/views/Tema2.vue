@@ -357,7 +357,7 @@
               td.text-left Alta pureza del producto, mínima degradación térmica y separación selectiva de compuestos específicos.
               td.text-left Muy alto costo, tecnología especializada y uso limitado principalmente a la industria farmacéutica y cosmética avanzada.
             tr
-              th Destilación previa maceración
+              th Destilación con maceración previa
               td.text-left El material vegetal se somete previamente a maceración (en agua u otro medio) para facilitar la ruptura celular antes del proceso de destilación.
               td.text-left Aumenta el rendimiento del aceite, mejora la liberación de compuestos aromáticos y reduce el tiempo de destilación.
               td.text-left Riesgo de fermentación si no se controla, posible alteración del perfil químico y mayor tiempo total de proceso.
